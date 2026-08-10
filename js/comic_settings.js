@@ -11,7 +11,7 @@ let pg = Number(findGetParameter("pg")); //make "pg" mean the current page numbe
 ////////////////////////
 
 //REALLY IMPORTANT ONES
-const maxpg = 28; //the current number of pages your comic has in total. this DOESNT necessarily mean number of IMAGE FILES as it doesn't count pages split into multiple files. 
+const maxpg = 32; //the current number of pages your comic has in total. this DOESNT necessarily mean number of IMAGE FILES as it doesn't count pages split into multiple files. 
 //YOU MUST UPDATE THIS NUMBER EVERY TIME YOU ADD A NEW PAGE or else it wont display the most recent page
 
 // COMIC PAGE SETTINGS
@@ -210,12 +210,36 @@ const pgData = [
         imageFiles: 1, 
    
     },
-  {
+ {
         pgNum: 28, //what page number it is
-        title: "Sowwy no pages uwu",
-        imageFiles: 1, 
+        title: "Chapter 1 - Page 13", //the title of the page (leaving this blank will default it to "Page X")
+        imageFiles: 1, //how many image files this page is split into
    
-    },
+    }, 
+ {
+        pgNum: 29, //what page number it is
+        title: "Chapter 1 - Page 14", //the title of the page (leaving this blank will default it to "Page X")
+        imageFiles: 1, //how many image files this page is split into
+   
+    }, 
+ {
+        pgNum: 30, //what page number it is
+        title: "Chapter 1 - Page 15", //the title of the page (leaving this blank will default it to "Page X")
+        imageFiles: 1, //how many image files this page is split into
+   
+    }, 
+ {
+        pgNum: 31, //what page number it is
+        title: "Chapter 1 - Page 16", //the title of the page (leaving this blank will default it to "Page X")
+        imageFiles: 1, //how many image files this page is split into
+   
+    }, 
+ {
+        pgNum: 32, //what page number it is
+        title: "Chapter 1 - Page 17", //the title of the page (leaving this blank will default it to "Page X")
+        imageFiles: 1, //how many image files this page is split into
+   
+    }, 
 ];
 
 //below is a function you dont rly need to mess with but if you're more experienced with js you can
