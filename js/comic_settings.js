@@ -11,7 +11,7 @@ let pg = Number(findGetParameter("pg")); //make "pg" mean the current page numbe
 ////////////////////////
 
 //REALLY IMPORTANT ONES
-const maxpg = 32; //the current number of pages your comic has in total. this DOESNT necessarily mean number of IMAGE FILES as it doesn't count pages split into multiple files. 
+const maxpg = 36; //the current number of pages your comic has in total. this DOESNT necessarily mean number of IMAGE FILES as it doesn't count pages split into multiple files. 
 //YOU MUST UPDATE THIS NUMBER EVERY TIME YOU ADD A NEW PAGE or else it wont display the most recent page
 
 // COMIC PAGE SETTINGS
@@ -237,6 +237,30 @@ const pgData = [
  {
         pgNum: 32, //what page number it is
         title: "Chapter 1 - Page 17", //the title of the page (leaving this blank will default it to "Page X")
+        imageFiles: 1, //how many image files this page is split into
+   
+    }, 
+  {
+        pgNum: 33, //what page number it is
+        title: "Chapter 1 - Page 18", //the title of the page (leaving this blank will default it to "Page X")
+        imageFiles: 1, //how many image files this page is split into
+   
+    }, 
+  {
+        pgNum: 34, //what page number it is
+        title: "Chapter 1 - Page 19", //the title of the page (leaving this blank will default it to "Page X")
+        imageFiles: 1, //how many image files this page is split into
+   
+    }, 
+  {
+        pgNum: 35, //what page number it is
+        title: "Chapter 1 - Page 20", //the title of the page (leaving this blank will default it to "Page X")
+        imageFiles: 1, //how many image files this page is split into
+   
+    }, 
+  {
+        pgNum: 36, //what page number it is
+        title: "Chapter 1 - Page 21", //the title of the page (leaving this blank will default it to "Page X")
         imageFiles: 1, //how many image files this page is split into
    
     }, 
