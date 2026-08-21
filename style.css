@@ -13,7 +13,7 @@ body, div, main, section, article {
 
 /* universal background color */
 body {
-     background-image:url(img/site_bg.png);    
+     background-image:url(img/GxR%20site%20bground.png);    
      margin: 0;
      background-size:cover;
      background-attachment: fixed;
@@ -24,7 +24,7 @@ body {
 
 /* header image */
 header img {
-         background: url("img/");
+         background: url("mg/");
          background-position: center;
          background-repeat: no-repeat;
          min-width: 400px;
