@@ -11,7 +11,7 @@ let pg = Number(findGetParameter("pg")); //make "pg" mean the current page numbe
 ////////////////////////
 
 //REALLY IMPORTANT ONES
-const maxpg = 36; //the current number of pages your comic has in total. this DOESNT necessarily mean number of IMAGE FILES as it doesn't count pages split into multiple files. 
+const maxpg = 48; //the current number of pages your comic has in total. this DOESNT necessarily mean number of IMAGE FILES as it doesn't count pages split into multiple files. 
 //YOU MUST UPDATE THIS NUMBER EVERY TIME YOU ADD A NEW PAGE or else it wont display the most recent page
 
 // COMIC PAGE SETTINGS
@@ -264,6 +264,78 @@ const pgData = [
         imageFiles: 1, //how many image files this page is split into
    
     }, 
+             {
+        pgNum: 37, //what page number it is
+        title: "Chapter 1 - Page 22",
+        imageFiles: 1, 
+   
+    },
+              {
+        pgNum: 38, //what page number it is
+        title: "Chapter 1 - Page 23",
+        imageFiles: 1, 
+   
+    },
+              {
+        pgNum: 39, //what page number it is
+        title: "Chapter 1 - Page 24",
+        imageFiles: 1, 
+   
+    },
+              {
+        pgNum: 40, //what page number it is
+        title: "Chapter 1 - Page 25",
+        imageFiles: 1, 
+   
+    },
+              {
+        pgNum: 41, //what page number it is
+        title: "Chapter 1 - Page 26",
+        imageFiles: 1, 
+   
+    },
+              {
+        pgNum: 42, //what page number it is
+        title: "Chapter 1 - Page 27",
+        imageFiles: 1, 
+   
+    },
+              {
+        pgNum: 43, //what page number it is
+        title: "Chapter 1 - Page 28",
+        imageFiles: 1, 
+   
+    },
+              {
+        pgNum: 44, //what page number it is
+        title: "Chapter 1 - Page 29",
+        imageFiles: 1, 
+   
+    },
+              {
+        pgNum: 45, //what page number it is
+        title: "Chapter 1 - Page 30",
+        imageFiles: 1, 
+   
+    },
+              {
+        pgNum: 46, //what page number it is
+        title: "Chapter 1 - Page 31",
+        imageFiles: 1, 
+   
+    },
+              {
+        pgNum: 47, //what page number it is
+        title: "Chapter 1 - Page 32",
+        imageFiles: 1, 
+   
+    },
+              {
+        pgNum: 48, //what page number it is
+        title: "Chapter 1 - Page 33",
+        imageFiles: 1, 
+   
+    },
 ];
 
 //below is a function you dont rly need to mess with but if you're more experienced with js you can
