@@ -330,7 +330,7 @@ const pgData = [
         imageFiles: 1, 
    
     },
-              {
+             {
         pgNum: 48, //what page number it is
         title: "Chapter 1 - Page 33",
         imageFiles: 1, 
