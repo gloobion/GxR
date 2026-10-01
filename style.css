@@ -31,7 +31,7 @@ header img {
          overflow: hidden;
          position: absolute;
          top: -0.9px;
-         left: 10%;
+         left: 0%;
          z-index: 100;
          pointer-events: none;
          opacity: 1;
