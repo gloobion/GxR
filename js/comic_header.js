@@ -9,7 +9,7 @@ document.querySelector(".writeHeader").innerHTML = `
             <a href="archive.html">ARCHIVE</a> |
             <a href="https://wriizzy.newgrounds.com/">NEWGROUNDS</a> |
             <a href="https://x.com/WriizyTheEvil">TWITTER</a>  |
-            <a href="https://ko-fi.com/wrizzzy">KOFI</a> |
+            <a href="https://ko-fi.com/wrizzzy">DONATE</a> |
             <a href="https://www.patreon.com/c/WriizzyArts?vanity=WriizzyArts">PATREON</a> |
             <a href="https://en.wikipedia.org/wiki/Gullibility">ONLYFANS</a>
 
